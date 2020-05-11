@@ -1,0 +1,72 @@
+
+  /* checkbox styles */
+  input[type=checkbox] {
+    z-index: 1;
+    border: 2px solid rgb(201, 179, 179);
+    -webkit-appearance: none;
+    width: 5rem;
+    height: 1.6rem;
+    border-radius: 1rem;
+    position: relative;
+  }
+  
+  /* switch styles*/
+  input[type="checkbox"]::after {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: #514878;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    content: 'OFF';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* label styles */
+  label::before {
+    display: block;
+    color: white;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  
+  /* the dark mode toggle */
+  .dark-mode {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all .3s ease-in-out;
+
+    opacity: 0;
+
+    /* generate the dark mode effect using mix-blend-mode */
+    background: white;
+    mix-blend-mode: difference;
+  }
+  
+  /* toggles the dark mode overlay when the checkbox is checked */
+  input[type=checkbox]:checked ~ .dark-mode {
+    opacity: 1;
+  }
+  
+  /* Move the switch when the checkbox is checked and change the color */
+  input[type="checkbox"]:checked::after {
+    right: 0;
+    left: auto;
+    background: #52cf71;
+    color: aliceblue;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    content: 'ON';
+  }

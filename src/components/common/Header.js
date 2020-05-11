@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { DarkMode } from "./DarkMode";
 import './Header.css'
 
 const Header = () => {
@@ -14,7 +15,11 @@ const Header = () => {
           </NavLink>
         </div>
 
-        <div className="col-md-8">
+        <div className="col-md-3">
+          <DarkMode />
+        </div>
+
+        <div className="col-md-5">
           <NavLink to="/" activeStyle={activeStyle} exact>
             Home
           </NavLink>
