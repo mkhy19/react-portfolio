@@ -6,6 +6,7 @@ const Contact = () => (
     <p>
       Contact form
     </p>
+    
   </div>
 );
 

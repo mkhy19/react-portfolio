@@ -10,7 +10,7 @@ const Header = () => {
       <div className="row">
         
         <div className="col-md-4">
-          <NavLink to="/" activeStyle={activeStyle} exact>
+          <NavLink className="link" to="/" activeStyle={activeStyle} exact>
             Mohamed Khaled Yousef
           </NavLink>
         </div>
@@ -20,15 +20,15 @@ const Header = () => {
         </div>
 
         <div className="col-md-5">
-          <NavLink to="/" activeStyle={activeStyle} exact>
+          <NavLink className="link" to="/" activeStyle={activeStyle} exact>
             Home
           </NavLink>
           {" | "}
-          <NavLink to="/projects" activeStyle={activeStyle}>
+          <NavLink className="link" to="/projects" activeStyle={activeStyle}>
             Projects
           </NavLink>        
           {" | "}
-          <NavLink to="/contact" activeStyle={activeStyle}>
+          <NavLink className="link" to="/contact" activeStyle={activeStyle}>
             Contact
           </NavLink>
         </div>

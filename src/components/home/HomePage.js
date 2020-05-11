@@ -9,11 +9,9 @@ import Contact  from '../contact/Contact'
 
 const HomePage = () => (
   <div className="">
-      <About />
-      <hr />
-
+      <About /> 
+      
       <Projects />
-      <hr />
 
       <Contact />
 
