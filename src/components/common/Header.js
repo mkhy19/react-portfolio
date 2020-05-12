@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { DarkMode } from "./DarkMode";
 import './Header.css'
+
+//import { DarkMode } from "../common/DarkMode";
 
 const Header = () => {
   const activeStyle = { color: "#000", fontWeight: "bold"};
@@ -9,17 +10,17 @@ const Header = () => {
     <nav>
       <div className="row">
         
+      <div className="col-md-4">
+            <NavLink className="link" to="/" activeStyle={activeStyle}>
+              Mohamed Khaled Yousef
+            </NavLink> 
+          </div>       
+          
+          {/* <div className="col-md-4">
+            <DarkMode />
+          </div>  */}
+ 
         <div className="col-md-4">
-          <NavLink className="link" to="/" activeStyle={activeStyle} exact>
-            Mohamed Khaled Yousef
-          </NavLink>
-        </div>
-
-        <div className="col-md-3">
-          <DarkMode />
-        </div>
-
-        <div className="col-md-5">
           <NavLink className="link" to="/" activeStyle={activeStyle} exact>
             Home
           </NavLink>

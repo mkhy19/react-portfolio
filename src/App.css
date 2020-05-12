@@ -1,12 +1,14 @@
-.App {
+ .App {
   text-align: center;
+   
 }
 
 body {
   height: 100vh;
   padding-top: 10px;
+  
 }
-
+/*
 
 .App-logo {
   height: 40vmin;
@@ -41,4 +43,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */

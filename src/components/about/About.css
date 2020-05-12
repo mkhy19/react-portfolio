@@ -1,5 +1,13 @@
+.aboutme, .detail{
+    padding: 15px;
+}
 
-.row{
+.main{
+    color: rgb(219, 124, 124);  
+    width: 100%;
+}
+
+.container{
     /* color: rgb(219, 124, 124); */
     color: rgb(23, 24, 2);
     padding: 5px;

@@ -14,16 +14,17 @@ import { IoLogoJavascript } from "react-icons/io";
 import MyGif from './giphy.gif';
 
 const About= () => (
-  <div className="container">
-    <div className="row">
+  <div className="main">
+   
+    <div className="row aboutme">
       <div className="col-md-12 col">
         <h2><mark>#AboutMe</mark></h2>
       </div>
     </div>
+    <br />
 
-    <div className="row">
-      <div className="col-md-7 col">
-          
+    <div className="row detail">
+      <div className="col-md-6 col">
         <h1>Mohamed Khaled Yousef</h1> <br />
 
         <mark>Frontend developer who interested in learning programming, technology <br /> and studying data structures and algorithms theory </mark> 
@@ -31,8 +32,15 @@ const About= () => (
         <h3>Programming languages : <IoLogoJavascript /> <FaPython /> <DiRuby /></h3>
       </div>
        
-      <div className="col-md-5 col">
-        <iframe src={MyGif}  width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+      <div className="col-md-6 col">
+        <iframe 
+          src={MyGif}  
+          width="480" 
+          height="270" 
+          frameBorder="0" 
+          className="giphy-embed" 
+          allowFullScreen>
+        </iframe>
       </div>
 
     </div>
