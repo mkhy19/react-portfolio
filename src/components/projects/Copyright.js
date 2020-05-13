@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react';
 import './Project.css'
 import { AiFillLinkedin, AiFillTwitterSquare, AiFillGithub } from 'react-icons/ai';
@@ -12,20 +13,20 @@ export default class Copyright extends Component {
         <div className="container-fluid text-center">
           <div className="text-center animatedLoad" style={{animationDelay: '2.75s', marginTop: '5%'}}>
             <h2 className="checkgethub" >To see a full directory of another projects, Check out my 
-                <a className="checkhover" href="https://github.com/mkhy19"> GitHub 
+                <a target="_blank" className="checkhover" href="https://github.com/mkhy19"> GitHub 
                     <FaHandPointLeft />
                 </a>
             </h2>
 
-            <a href="https://www.linkedin.com/in/mohamed-khaled-yousef-421081a5/">
+            <a target="_blank" href="https://www.linkedin.com/in/mohamed-khaled-yousef-421081a5/">
                 {/* <i className="fab fa-linkedin-in social-media"></i> */}
                 <AiFillLinkedin className="social-media"/>
             </a>
-            <a href="https://twitter.com/mkhy_19">
+            <a target="_blank" href="https://twitter.com/mkhy_19">
                 <i className="fab fa-twitter social-media"></i>
                 <AiFillTwitterSquare className="social-media"/>
             </a>
-            <a href="https://github.com/mkhy19">
+            <a target="_blank" href="https://github.com/mkhy19">
                 <i className="fab fa-github social-media"></i>
                 <AiFillGithub className="social-media"/>
 

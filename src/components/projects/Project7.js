@@ -17,7 +17,7 @@ export default function Project7(props) {
         <div className="container-fluid text-center">
             <div className="card card-inverse view overlay animatedLoad" style={{animationDelay: '1.5s'}}>
                 <img className="card-img card-img-top" src={props.imgUrl} id="biggerCard" style={{width: '110%' }}/>
-                <div className="card-img-overlay" style={{backgroundColor: '#feefea'}}>
+                <div className="card-img-overlay" style={{backgroundColor: '#2beeb6'}}>
                 
                     <div className="vertical-align-center">
                         <h2 className="text-center display-4 project-name">{props.projectName}</h2>

@@ -14,7 +14,7 @@ export default class Project4 extends Component {
 
         <div className="card card-inverse view overlay animatedLoad"  style={{animationDelay: '2s'}}>
             <img className="card-img card-img-top" src={props.imgUrl} />
-            <div className="card-img-overlay" style={{backgroundColor: '#feefea'}}>
+            <div className="card-img-overlay" style={{backgroundColor: '#2beeb6'}}>
                 <div className="vertical-align-center">
                 <h2 className="text-center display-4 project-name">{props.projectName}</h2>                 
                 <p className="text-center lead project-about">{props.aboutProject}</p>

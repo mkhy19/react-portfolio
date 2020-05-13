@@ -42,7 +42,7 @@ ul.other-projects {list-style-type: circle;}
 }
 
 .card {
-
+  color: #000;
   cursor:pointer;
   border: 0px;
   border-radius: 0px;
