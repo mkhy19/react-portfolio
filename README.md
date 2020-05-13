@@ -20,7 +20,7 @@
 			* Projects navigates to home page and scroll to projects
 			* Contacts navigate to home page and scroll to contact us
 
-## Techn tools and libraries
+## Tech tools and libraries
 * create react app tool
 * react-route library 
 * react-router-dom library 
