@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Header.css'
+import { animateScroll as scroll } from "react-scroll";
 
 //import { DarkMode } from "../common/DarkMode";
 
@@ -11,7 +12,7 @@ const Header = () => {
       <div className="row">
         
       <div className="col-md-4">
-            <NavLink className="link" to="/" activeStyle={activeStyle}>
+            <NavLink onClick={() => { scroll.scrollToTop()}} className="link" to="/" activeStyle={activeStyle}>
               Mohamed Khaled Yousef
             </NavLink> 
           </div>       
@@ -26,11 +27,23 @@ const Header = () => {
             Home
           </NavLink>
           {" | "}
-          <NavLink className="link" to="/projects" activeStyle={activeStyle}>
+          {/* onClick={() => window.scrollBy(0, 100)} */}
+          <NavLink 
+            className="link" 
+            to="/projects" 
+            activeStyle={activeStyle}
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+            onClick={() => { window.scrollBy(0, 100)}}
+            >
             Projects
-          </NavLink>        
+          </NavLink>
+
           {" | "}
-          <NavLink className="link" to="/contact" activeStyle={activeStyle}>
+          <NavLink onClick={() => { scroll.scrollToBottom()}} className="link" to="/contact" activeStyle={activeStyle}>
             Contact
           </NavLink>
         </div>
