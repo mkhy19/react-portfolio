@@ -17,7 +17,7 @@ const Header = () => {
             </NavLink> 
           </div>       
           
-          <div className="col-md-4">
+          <div className="col-md-2">
             {/* <DarkMode /> */}
             
           </div>  

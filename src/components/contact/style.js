@@ -3,11 +3,12 @@ import styled from 'styled-components'
 
 export const ContactSection = styled.div`
     padding: 20px;
-    text-align: center
+    text-align: center;
+    background-color: #19232c; 
 `
 export const ContactTitle = styled.h2`
     font-size: 60px;
-    color: black;
+    color: #fff;
     margin-bottom: 30px
 `
 export const SPAN = styled.span`
@@ -58,7 +59,7 @@ export const InputSubmit = styled(Input)`
     width: 50%;
     background: #000;
     border: 1px solid #ccc;
-    color: #888;
+    color: #fff;
     font-weight: bold;
     cursor: pointer
 `
@@ -67,6 +68,8 @@ export const Social = styled.div`
     font-size: 40px;
     text-align: center;
     margin: 0 auto;
+    color: #fff;
+
 `
 export const UL = styled.ul`
     list-style-type: none;
