@@ -31,7 +31,7 @@
   /* label styles */
   label::before {
     display: block;
-    color: white;
+    color: rgb(243, 227, 227);
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 100;
@@ -49,7 +49,8 @@
     opacity: 0;
 
     /* generate the dark mode effect using mix-blend-mode */
-    background: white;
+    background: rgb(240, 226, 226);
+    color: rgb(8, 5, 5);
     mix-blend-mode: difference;
   }
   
@@ -62,8 +63,8 @@
   input[type="checkbox"]:checked::after {
     right: 0;
     left: auto;
-    background: #52cf71;
-    color: aliceblue;
+    background: #e0f0e4;
+    color: rgb(15, 16, 17);
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 1rem;

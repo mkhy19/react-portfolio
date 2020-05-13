@@ -28,7 +28,7 @@ const About= () => (
       <div className="col-md-6 col">
         <h1>Mohamed Khaled Yousef</h1> <br />
 
-        <mark>Frontend developer who interested in learning programming, technology <br /> and studying data structures and algorithms theory </mark> 
+        <mark>Frontend developer who interested in learning programming, technology and studying data structures and algorithms theory </mark> 
         <h3>Toolbox I used : <GrReactjs /> <FaVuejs /> <DiGulp /> <BsBootstrapFill /> <FaGitSquare /> <FaGithubAlt /> <DiHtml5/> <DiCss3 /></h3>
         <h3>Programming languages : <IoLogoJavascript /> <FaPython /> <DiRuby /></h3>
       </div>
