@@ -3,5 +3,10 @@ nav{
     /* color: rgb(219, 124, 124); */
     /* color: rgb(148, 150, 9); */
     margin-bottom: 20px;
-    /* background-color: black; */
+    /* background-color: rgb(241, 232, 232);
+    position: fixed; */
+}
+
+.link{
+    color: rgb(148, 150, 9);
 }

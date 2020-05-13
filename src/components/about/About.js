@@ -14,7 +14,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import MyGif from './giphy.gif';
 
 const About= () => (
-  <div className="main">
+  // <div className="main">
+  <div className="container">
    
     <div className="row aboutme">
       <div className="col-md-12 col">

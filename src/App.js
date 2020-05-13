@@ -13,7 +13,7 @@ import PageNotFound from "./components/PageNotFound";
 
 function App() {
   return (
-    <div className="container-fluid text-center">
+    <div className="container text-center">
       <Header /> 
       <Switch>
         <Route exact path="/" component={HomePage} />
