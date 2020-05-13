@@ -1,3 +1,46 @@
+# React-Portfolio
+
+ This is first version of a mobile first responsive portfolio website that have dark theme and consists of 2 pages:
+* Page 1 - home page contains :
+    * 1 - About section:
+		* Picture + details
+	* 2 - Projects section:
+		* Contains a grid of your projects
+		* When click on the project it opens project details page with project details
+		* The project part in the section contains image and name ( Need updates )
+	* 3 - Contacts section:
+		* Contact form which send an email to you
+		* Your social media links
+* Page 2 - Project details page :
+	* 1 - Consisted of project images and details and link for it
+	* 2 - All pages have header which contains links to
+	    * Logo in the left or name to navigate to main page
+		* Links on the right:
+			* Home also navigate to main page
+			* Projects navigates to home page and scroll to projects
+			* Contacts navigate to home page and scroll to contact us
+
+## Techn tools and libraries
+* create react app tool
+* react-route library 
+* react-router-dom library 
+* bootstrap framework 
+* react-icons package 
+* react-scroll component for animating vertical scrolling
+* Styling :
+    * CSS3
+    * styled-components
+## TL;DR
+To get started developing right away:
+* download or clone this repo: ```
+git clone https://github.com/mkhy19/react-portfolio```
+
+* ```npm install```
+
+* ```npm start``` to start live preview via http://localhost:3000/ by default.
+* if you have an issue with this local host, You can change it first in package.json file then in your bash or vscode terminal use for example:                               
+```set PORT=4444``` or any 4 numbers and re-run the server again using ```npm start```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
