@@ -5,7 +5,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import './Project.css'
-import { Link, NavLink, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ProjectDetails from "./ProjectDetails";
 import { Route } from "react-router-dom";
 //import { render } from "react-dom";

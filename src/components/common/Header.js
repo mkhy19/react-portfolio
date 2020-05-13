@@ -16,9 +16,10 @@ const Header = () => {
             </NavLink> 
           </div>       
           
-          {/* <div className="col-md-4">
-            <DarkMode />
-          </div>  */}
+          <div className="col-md-4">
+            {/* <DarkMode /> */}
+            
+          </div>  
  
         <div className="col-md-4">
           <NavLink className="link" to="/" activeStyle={activeStyle} exact>
