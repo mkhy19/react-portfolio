@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import './Header.css'
 import { animateScroll as scroll } from "react-scroll";
 
-import { DarkMode } from "../common/DarkMode";
+import { DarkMode } from "./DarkMode";
 
 const Header = () => {
   const activeStyle = { color: "rgb(148, 150, 9)", fontWeight: "bold"};
@@ -19,8 +19,7 @@ const Header = () => {
           </div>       
             
           <div className="col-md-2">
-            <DarkMode />
-            
+            <DarkMode />  
           </div>  
   
           <div className="col-md-6">

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const ContactSection = styled.div`
     padding: 20px;
     text-align: center;
-    background-color: #19232c; 
+    position: relative;
 `
 export const ContactTitle = styled.h2`
     font-size: 60px;

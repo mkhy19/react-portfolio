@@ -1,21 +1,23 @@
-
+  /* input */
   /* checkbox styles */
-  input[type=checkbox] {
+  /* input[type=checkbox] { */
+  .input {
     z-index: 1;
     border: 2px solid rgb(201, 179, 179);
     -webkit-appearance: none;
     width: 5rem;
     height: 1.6rem;
     border-radius: 1rem;
+    /* position: fixed;   */
     position: relative;
   }
   
   /* switch styles*/
-  input[type="checkbox"]::after {
+  /* input[type="checkbox"]::after { */
+  .input::after {
     position: absolute;
     top: 0; 
     left: 0;
-    content: "";
     width: 50%;
     height: 100%;
     background: #514878;
@@ -28,8 +30,10 @@
     color: white;
   }
   
+  /* label */
   /* label styles */
-  label::before {
+  /* label::before { */
+  .label::before {
     display: block;
     color: rgb(243, 227, 227);
     margin-top: 1rem;
@@ -55,12 +59,14 @@
   }
   
   /* toggles the dark mode overlay when the checkbox is checked */
-  input[type=checkbox]:checked ~ .dark-mode {
+  /* input[type=checkbox]:checked ~ .dark-mode { */
+  .input:checked ~ .dark-mode {
     opacity: 1;
   }
   
   /* Move the switch when the checkbox is checked and change the color */
-  input[type="checkbox"]:checked::after {
+  /* input[type="checkbox"]:checked::after { */
+  .input:checked::after {
     right: 0;
     left: auto;
     background: #e0f0e4;
@@ -71,3 +77,4 @@
     border-bottom-right-radius: 1rem;
     content: 'ON';
   }
+

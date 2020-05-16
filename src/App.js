@@ -14,7 +14,9 @@ import PageNotFound from "./components/PageNotFound";
 function App() {
   return (
     <div className="container text-center">
+                
       <Header /> 
+
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/projects" component={Projects} />
